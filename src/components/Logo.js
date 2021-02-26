@@ -1,10 +1,12 @@
 import React from 'react';
+import whiteLogo from '../images/white-logo.png';
 
-const Logo = (props) => {
+const Logo = props => {
   return (
     <img
+      style={{ transform: 'translateY(10px)' }}
       alt="Logo"
-      src="/static/logo.svg"
+      src={whiteLogo}
       {...props}
     />
   );
